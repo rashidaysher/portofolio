@@ -36,10 +36,18 @@ body{
 }
 
 #banner {
-      background-image: url(../images/Desktop\ -\ 2\ \(2\).png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 80vh;
+      background-image: linear-gradient(to right, #df1d1d, #5f1782 );
       color: white;
       padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.cv {
+    width: 45px;
+    margin: 20px;
 }
