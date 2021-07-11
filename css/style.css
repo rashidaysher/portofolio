@@ -1,15 +1,32 @@
-<header class="showcase">
-    <div class="container showcase-classic">
-        <h1>Aisha Rashid</h1>
-        <p>Aisha is a very self-driven individual with keen intrest 
-on paying attention to details. I am a web-developer 
-by profession and a content writer. such as writing,
-telling stories through social media
-and developing websites that aim at solving 
-real time problems. I work with a process known as
-‘For the user around the user’. This aims at understanding
-my audience and what is their need before embarking
-on the work at hand.</p>
-    </div>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-</header>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: crimson;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.container {
+    text-align: justify;
+    background-image: url(../images/IMG-20201207-WA0026\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-color:crimson;
+    z-index: -1;
+}
+
+.container li {
+            text-decoration: none;
+
+}
