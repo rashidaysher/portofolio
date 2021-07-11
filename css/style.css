@@ -30,3 +30,7 @@ body{
     color: white !important;
     font-weight: 600;
 }
+
+.navbar-toogler{
+    outline: none !important;
+}
