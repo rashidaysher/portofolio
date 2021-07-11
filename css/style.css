@@ -16,3 +16,17 @@ body{
     top: 0;
     z-index: 10;
 }
+
+.navbar{
+    background-image: linear-gradient(to right, #df1d1d, #5f1782 ) ;
+    padding: 0 !important ; 
+}
+
+.nav-bar li {
+    padding: 0 10px;
+} 
+
+.nav-bar li a{
+    color: white !important;
+    font-weight: 600;
+}
