@@ -78,7 +78,7 @@ body{
         text-transform: uppercase;
 }
 
-.sub-title::before {
+.title::before {
     content:'';
     background: #7b1798;
     height: 5px;
@@ -89,7 +89,7 @@ body{
     transform: translateY(63px);
 }
 
-.sub-title::after {
+.title::after {
     content:'';
     background: #7b1798;
     height: 10px;
@@ -106,5 +106,12 @@ body{
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #df1d1d, #5f1782;
+    background-image: linear-gradient(to right, #df1d1d, #5f1782;)
+}
+
+#about-me{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
 }
