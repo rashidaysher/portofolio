@@ -7,26 +7,12 @@
 }
 
 body{
-    background-color: crimson;
+   
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    height: 100vh;
-    overflow: hidden;
-    margin: 0;
-    
 }
 
-.container {
-    text-align: justify;
-    background-image: url(../images/IMG-20201207-WA0026\ 3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-color:crimson;
-    z-index: -1;
-}
-
-.container li {
-            text-decoration: none;
-
+#nav-menu {
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
