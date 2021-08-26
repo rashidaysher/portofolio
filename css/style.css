@@ -110,12 +110,23 @@ body{
 }
 
 #about-me{
-    background: #f8f9fa;
+    background-image: url(../images/aish.jpeg);
+ background-repeat: no-repeat; 
+ background-size: cover;
+ height: 80vh;
     padding-bottom: 50px;
     padding-top: 50px;
 
 }
 
+#about-me p, h1{
+    color: white;
+    font-size: large;
+    justify-content: center;
+}
+#about-me h5{
+    color: white;
+}
 .image-fluid {
     width: 100%;
     height: 500px;
@@ -218,7 +229,9 @@ input[type=text], select, textarea {
   
  
 
-
+#aish{
+    height: 70%;
+}
 
   .projects{
     height: auto;
